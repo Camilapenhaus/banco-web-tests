@@ -52,6 +52,6 @@ cy.realizarTransferencia('João da Silva', 'Maria Oliveira', '11')
 cy.realizarTransferencia('João da Silva', 'Maria Oliveira', '6000')
 
     // Assert
-    cy.verificarMensagemNoToast('Autenticação necessária para transferências acima de R$5.000,00')
+    cy.verificarMensagemNoToast('Autenticação necessária para transferências acima de R$5.000,00.')
     })
 })

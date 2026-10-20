@@ -2,7 +2,8 @@ describe('Login', () => {
   beforeEach(() => {
     // Arrange
     cy.visit('/')
-    cy.screenshot('apos-visitar-pagina')
+    
+    //cy.screenshot('apos-visitar-pagina')
   })
 
   it('Login com dados válidos deve permitir a entrada no sistema', () => {
